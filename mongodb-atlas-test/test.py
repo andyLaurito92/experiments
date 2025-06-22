@@ -3,7 +3,7 @@ from pymongo.server_api import ServerApi
 from pprint import pprint # to print nested data
 import os
 
-user = os.environ["USER"]
+user = os.environ["user"]
 password = os.environ["password"]
 cluster = os.environ["cluster"]
 
